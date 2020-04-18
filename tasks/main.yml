@@ -1,5 +1,5 @@
 ---
-- name: Install extra deps
+- name: Install ubuntu server production basic tools
   apt:
     name: ["rsync", "htop", "nano", "net-tools"]
     update_cache: yes
