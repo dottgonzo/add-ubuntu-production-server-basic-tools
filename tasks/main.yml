@@ -1,0 +1,5 @@
+---
+- name: Install extra deps
+  apt:
+    name: ["rsync", "htop", "nano", "net-tools"]
+    update_cache: yes
