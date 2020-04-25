@@ -1,5 +1,5 @@
 ---
 - name: Install ubuntu server production basic tools
   apt:
-    name: ["rsync", "htop", "nano", "net-tools", "git"]
+    name: ["rsync", "htop", "nano", "net-tools", "git", "jq"]
     update_cache: yes
